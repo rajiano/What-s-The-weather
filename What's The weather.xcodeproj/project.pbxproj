@@ -12,6 +12,15 @@
 		544E79401D1E006C00D9AD3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544E793E1D1E006C00D9AD3D /* Main.storyboard */; };
 		544E79421D1E006C00D9AD3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 544E79411D1E006C00D9AD3D /* Assets.xcassets */; };
 		544E79451D1E006C00D9AD3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 544E79431D1E006C00D9AD3D /* LaunchScreen.storyboard */; };
+		544E794D1D1E045B00D9AD3D /* globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 544E794C1D1E045B00D9AD3D /* globe.png */; };
+		544E794F1D1E080700D9AD3D /* wind.png in Resources */ = {isa = PBXBuildFile; fileRef = 544E794E1D1E080700D9AD3D /* wind.png */; };
+		544E79511D1E087200D9AD3D /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 544E79501D1E087200D9AD3D /* sun.png */; };
+		544E79531D1E091200D9AD3D /* rain.png in Resources */ = {isa = PBXBuildFile; fileRef = 544E79521D1E091200D9AD3D /* rain.png */; };
+		544E79551D1E094C00D9AD3D /* light_snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 544E79541D1E094C00D9AD3D /* light_snow.png */; };
+		544E79571D1E095600D9AD3D /* sleet.png in Resources */ = {isa = PBXBuildFile; fileRef = 544E79561D1E095600D9AD3D /* sleet.png */; };
+		544E79591D1E095D00D9AD3D /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 544E79581D1E095D00D9AD3D /* snow.png */; };
+		544E795B1D1E097500D9AD3D /* wet.png in Resources */ = {isa = PBXBuildFile; fileRef = 544E795A1D1E097500D9AD3D /* wet.png */; };
+		544E795F1D1F32E700D9AD3D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544E795E1D1F32E700D9AD3D /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		544E79411D1E006C00D9AD3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		544E79441D1E006C00D9AD3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		544E79461D1E006C00D9AD3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		544E794C1D1E045B00D9AD3D /* globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globe.png; sourceTree = "<group>"; };
+		544E794E1D1E080700D9AD3D /* wind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wind.png; sourceTree = "<group>"; };
+		544E79501D1E087200D9AD3D /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		544E79521D1E091200D9AD3D /* rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rain.png; sourceTree = "<group>"; };
+		544E79541D1E094C00D9AD3D /* light_snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_snow.png; sourceTree = "<group>"; };
+		544E79561D1E095600D9AD3D /* sleet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sleet.png; sourceTree = "<group>"; };
+		544E79581D1E095D00D9AD3D /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		544E795A1D1E097500D9AD3D /* wet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wet.png; sourceTree = "<group>"; };
+		544E795E1D1F32E700D9AD3D /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +74,18 @@
 			children = (
 				544E793A1D1E006C00D9AD3D /* AppDelegate.swift */,
 				544E793C1D1E006C00D9AD3D /* ViewController.swift */,
+				544E795E1D1F32E700D9AD3D /* SecondViewController.swift */,
 				544E793E1D1E006C00D9AD3D /* Main.storyboard */,
 				544E79411D1E006C00D9AD3D /* Assets.xcassets */,
+				544E794E1D1E080700D9AD3D /* wind.png */,
+				544E79501D1E087200D9AD3D /* sun.png */,
+				544E79521D1E091200D9AD3D /* rain.png */,
+				544E79541D1E094C00D9AD3D /* light_snow.png */,
+				544E79561D1E095600D9AD3D /* sleet.png */,
+				544E79581D1E095D00D9AD3D /* snow.png */,
+				544E795A1D1E097500D9AD3D /* wet.png */,
 				544E79431D1E006C00D9AD3D /* LaunchScreen.storyboard */,
+				544E794C1D1E045B00D9AD3D /* globe.png */,
 				544E79461D1E006C00D9AD3D /* Info.plist */,
 			);
 			path = "What's The weather";
@@ -122,9 +149,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				544E79511D1E087200D9AD3D /* sun.png in Resources */,
+				544E79571D1E095600D9AD3D /* sleet.png in Resources */,
+				544E795B1D1E097500D9AD3D /* wet.png in Resources */,
 				544E79451D1E006C00D9AD3D /* LaunchScreen.storyboard in Resources */,
+				544E79531D1E091200D9AD3D /* rain.png in Resources */,
+				544E794D1D1E045B00D9AD3D /* globe.png in Resources */,
 				544E79421D1E006C00D9AD3D /* Assets.xcassets in Resources */,
+				544E79591D1E095D00D9AD3D /* snow.png in Resources */,
 				544E79401D1E006C00D9AD3D /* Main.storyboard in Resources */,
+				544E794F1D1E080700D9AD3D /* wind.png in Resources */,
+				544E79551D1E094C00D9AD3D /* light_snow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				544E795F1D1F32E700D9AD3D /* SecondViewController.swift in Sources */,
 				544E793D1D1E006C00D9AD3D /* ViewController.swift in Sources */,
 				544E793B1D1E006C00D9AD3D /* AppDelegate.swift in Sources */,
 			);
